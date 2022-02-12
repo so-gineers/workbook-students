@@ -4,7 +4,7 @@ on:
       - master
   pull_request:
 jobs:
-  build-and-push-teachers-image:
+  build-and-push:
     strategy:
       fail-fast: false
       matrix:
