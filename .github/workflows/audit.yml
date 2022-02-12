@@ -1,0 +1,12 @@
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Audit for vulnerabilities
+        run: npx audit-ci --moderate
