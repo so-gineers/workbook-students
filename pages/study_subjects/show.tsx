@@ -49,23 +49,7 @@ const ShowStudySubject : NextPage = () => {
                   <chakra.h1 color="white" fontWeight="bold" fontSize="lg">
                     6 exos à finir
                   </chakra.h1>
-                  <Link
-                    href="/study_subjects/show"
-                    px={2}
-                    py={1}
-                    bg="white"
-                    fontSize="xs"
-                    color="gray.900"
-                    fontWeight="bold"
-                    rounded="lg"
-                    textTransform="uppercase"
-                    _hover={{
-                      bg: "gray.200",
-                    }}
-                    _focus={{
-                      bg: "gray.400",
-                    }}
-                  >
+                  <Link href="/study_subjects/show">
                     Practice
                   </Link>
                 </Flex>

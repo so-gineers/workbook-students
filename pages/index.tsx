@@ -98,12 +98,9 @@ const Home: NextPage = () => {
           </chakra.h2>
             <Link
               href='/dashboard'
-              w={["full", , "auto"]}
               display="block"
               alignItems="center"
               justifyContent="center"
-              px={5}
-              py={3}
               border="solid transparent"
               fontWeight="bold"
               rounded="md"
